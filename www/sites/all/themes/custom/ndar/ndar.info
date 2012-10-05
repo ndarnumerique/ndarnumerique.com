@@ -1,0 +1,43 @@
+name = Ndar
+description = Custom theme for Ndar Numérique - v1
+package = Core
+core = 7.x
+base theme = likable_clean_theme
+version = 7.x-1.x
+
+stylesheets[all][] = css/ndar.css
+
+regions[help] = Help
+
+
+regions[branding_left] = Branding Left
+regions[branding_right] = Branding Right
+
+regions[header] = Header
+
+regions[front_content] = Front Content
+
+regions[top_first] = Top first column
+regions[top_second] = Top second column
+regions[top_third] = Top third column
+regions[top_fourth] = Top fourth column
+
+regions[slideshow] = Slideshow
+
+regions[top_content] = Top Content
+regions[content] = Content
+
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[bottom_first] = Bottom first column
+regions[bottom_second] = Bottom second column
+regions[bottom_third] = Bottom third column
+regions[bottom_fourth] = Bottom fourth column
+
+regions[footer_first] = Footer first column
+regions[footer_second] = Footer second column
+regions[footer_third] = Footer third column
+regions[footer_fourth] = Footer fourth column
+
+regions[footer] = Footer

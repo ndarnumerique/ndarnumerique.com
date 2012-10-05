@@ -1,0 +1,5 @@
+name = Ndar Numérique Build
+description = "Provides tools (such as hook_update_N() implementations) for building and deploying the site."
+package = Ndar
+core = 7.x
+version = 7.x-1.x

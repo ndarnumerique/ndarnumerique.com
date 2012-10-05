@@ -10,5 +10,6 @@ Setup instructions:
 * add your database config details in /sites/default/settings.php
 * create /sites/default/files
 * make /sites/default/files writable for apache
+* use drush to reset the password for user/1
 
 For more info, refer to the README.txt found in Drupal's webroot, or hit http://drupal.org/documentation/install.

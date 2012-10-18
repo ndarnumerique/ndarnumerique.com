@@ -72,6 +72,10 @@ body {
   font-weight: normal;
 }
 
+.item-list ul li {
+  background: url(../img/bullet1.jpg) no-repeat 7px 4px;
+}
+
 
 .block h2 {
   background: #777;

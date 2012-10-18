@@ -49,6 +49,10 @@ body {
 
 }
 
+#top-columns {
+  padding-bottom: 1em
+}
+
 #main-menu {
   border: none;
   top: 417px;
@@ -62,13 +66,14 @@ body {
 
 #main-menu ul.menu li a {
   border: none;
+  border-bottom: solid #000;
   color: #f5d003;
   padding: 9px 10px;
 }
 
 #main-menu ul.menu li a.active {
-  background: #f5d003;
-  color: #000;
+  border-bottom: solid #f5d003 3px;
+  color: #f5d003;
   font-weight: normal;
 }
 
@@ -89,10 +94,33 @@ body {
   font-size: 14px;
 }
 
+.region-content .content h2 {
+  background: #ddd;
+  padding-left: 2px;
+  
+}
+
+.region-content .content h2 a {
+  text-decoration: none;
+}
+
+.region-content .content h2 a:hover {
+  color: #f5d003;
+}
+
 /* VIEWS */
 
 .block-views .content {
   margin-top: 1em
+}
+
+/* View: frontpage */
+
+
+.view-frontpage .node .submitted {
+  padding-left: 3px;
+  padding-top: 5px;
+  text-transform: uppercase;
 }
 
 /* View: Events */
@@ -134,8 +162,6 @@ body {
 .block-views .view-news .views-row {
   margin-bottom: 1em;
 }
-
-/* View: News */
 
 .block-views .view-news a {
   text-decoration: none;

@@ -118,7 +118,7 @@ body {
 /* View: frontpage */
 
 
-.view-frontpage .node .submitted {
+.node .submitted {
   padding-left: 3px;
   padding-top: 5px;
   text-transform: uppercase;

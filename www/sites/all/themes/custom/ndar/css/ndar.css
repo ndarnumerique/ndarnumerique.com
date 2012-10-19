@@ -61,6 +61,7 @@ body {
 #main-menu ul.menu li {
   background: #000;
   background-image: none;
+  font-family: inherit;
   font-weight: normal;
 }
 

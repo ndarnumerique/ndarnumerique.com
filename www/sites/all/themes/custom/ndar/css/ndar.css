@@ -158,6 +158,28 @@ body {
 }
 
 
+.view-events table.views-view-grid {
+  border-left: none;
+  border-top: none;
+}
+
+.view-events table.views-view-grid td,
+.view-events table.views-view-grid tr
+ {
+  border-bottom: solid #fff 3em;
+  border-right: none;
+}
+
+.view-events table.views-view-grid tr {
+  margin-bottom: 1em;
+}
+
+
+.view-events .views-view-grid .views-field-field-event-image img {
+  border: solid #EBEBEB 1px;
+  padding: 5px;
+}
+
 /* View: News */
 
 .block-views .view-news .views-row {
